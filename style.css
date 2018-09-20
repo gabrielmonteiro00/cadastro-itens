@@ -1,0 +1,48 @@
+body {
+    background-color: #FFF;
+}
+
+.sidebar {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    padding-top: 16px;
+}
+
+.sidebar a {
+    padding: 6px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    text-align: center;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.container {
+    margin-left: 20%; 
+    margin-right: 16px;
+    padding: 10px;
+}
+
+.titulo {
+    margin-left: 20%; 
+    padding: 8px;
+    border-bottom-color: blue;
+    border-bottom-style: solid;
+    border-bottom-width: 1px; 
+    margin-bottom: 16px;
+}
+
+#tblList thead{
+    background: lightgray;
+    color: black;
+    margin-right: 16px;
+}
